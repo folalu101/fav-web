@@ -39,6 +39,8 @@ $(document).ready(function() {
 
       console.log(newThings);
 
+      $("#new-fav").show();
+
 
   
       event.preventDefault();
