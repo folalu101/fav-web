@@ -29,7 +29,16 @@ $(document).ready(function() {
 
       console.log(favThings);
       console.log(firstThing);
-      console
+      console.log(secondThing);
+      console.log(thirdThing);
+
+      const newThings = [];
+      newThings.push(secondThing);
+      newThings.push(firstThing);
+      newThings.push(thirdThing);
+
+      console.log(newThings);
+
 
   
       event.preventDefault();
